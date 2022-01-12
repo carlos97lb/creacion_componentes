@@ -1,0 +1,16 @@
+﻿<Window x:Class="creacion_componentes_formulario_validacion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:creacion_componentes_formulario_validacion"
+        xmlns:este="clr-namespace:creacion_componentes_formulario_validacion.miscontroles"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <!--<este:Control1 tipo_validacion="DNI" />!-->
+        <este:Control1 tipo_validacion="telefono" VerticalAlignment="Top"  Margin="96,-50,10,0" Height="343"/>
+        <este:Control1 x:Name="hh" tipo_validacion="DNI" Margin="-232,-80,232,80"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="334,293,0,0" VerticalAlignment="Top" Width="75"/>
+    </Grid>
+</Window>
